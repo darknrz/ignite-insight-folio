@@ -5,35 +5,35 @@ import { Badge } from "./ui/badge";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "Biblioteca ",
     description: "Full-stack e-commerce solution with real-time inventory management, secure payment processing, and advanced analytics.",
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=500&fit=crop",
-    technologies: ["React", "Node.js", "PostgreSQL", "Stripe"],
-    github: "#",
+    technologies: ["React", "Node.js", "SqlServer", "Electron"],
+    github: "https://github.com/ISAASPWDI/sistema-de-biblioteca-UNCP.git",
     demo: "#",
   },
   {
-    title: "Task Management App",
+    title: "Artesania shop",
     description: "Collaborative project management tool with real-time updates, team chat, and advanced reporting features.",
     image: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=800&h=500&fit=crop",
     technologies: ["TypeScript", "React", "Supabase", "Tailwind"],
-    github: "#",
+    github: "https://github.com/darknrz/artesania-shop.git",
     demo: "#",
   },
   {
-    title: "AI Content Generator",
+    title: "schollar conect",
     description: "Machine learning-powered content creation tool that helps users generate high-quality written content.",
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop",
     technologies: ["Python", "React", "OpenAI", "FastAPI"],
-    github: "#",
+    github: "https://github.com/darknrz/tech-affinity-finder.git",
     demo: "#",
   },
   {
-    title: "Portfolio Website Builder",
+    title: "Math kids",
     description: "No-code platform enabling users to create stunning portfolio websites with drag-and-drop simplicity.",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop",
-    technologies: ["Next.js", "TypeScript", "Prisma", "TailwindCSS"],
-    github: "#",
+    technologies: ["TypeScript", "Prisma", "TailwindCSS", "Supabase", "React", "JavaScript", "Node.js", "izipay", "express", "PostgreSql" ],
+    github: "https://github.com/darknrz/Math-Kids.git",
     demo: "#",
   },
 ];
@@ -45,12 +45,11 @@ export const Projects = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-              Featured Projects
+              Proyectos realizados
             </h2>
             <div className="w-20 h-1 bg-gradient-accent mx-auto mb-8" />
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              A showcase of my recent work, demonstrating my skills in building
-              modern, scalable, and user-friendly applications.
+              Una muestra de mi trabajo reciente, que demuestra mis habilidades para crear aplicaciones modernas, escalables y fáciles de usar.
             </p>
           </div>
 

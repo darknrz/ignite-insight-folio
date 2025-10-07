@@ -4,25 +4,26 @@ import { Card, CardContent } from "./ui/card";
 const values = [
   {
     icon: Code,
-    title: "Technical Excellence",
-    description: "Committed to writing clean, maintainable code and staying current with best practices and emerging technologies.",
+    title: "Excelencia Técnica",
+    description: "Comprometido con escribir código limpio y mantenible, y con mantenerme actualizado en las mejores prácticas y tecnologías emergentes.",
   },
   {
     icon: Heart,
-    title: "Passion for Learning",
-    description: "Continuously expanding my skill set and embracing new challenges with enthusiasm and dedication.",
+    title: "Pasión por Aprender",
+    description: "Amplío constantemente mis habilidades y enfrento nuevos desafíos con entusiasmo y dedicación.",
   },
   {
     icon: Target,
-    title: "Goal-Oriented",
-    description: "Focused on delivering results that exceed expectations and drive meaningful impact.",
+    title: "Enfoque en Objetivos",
+    description: "Orientado a entregar resultados que superen expectativas y generen un impacto significativo.",
   },
   {
     icon: Users,
-    title: "Team Collaboration",
-    description: "Strong believer in the power of teamwork, open communication, and knowledge sharing.",
+    title: "Colaboración en Equipo",
+    description: "Firme creyente del poder del trabajo en equipo, la comunicación abierta y el intercambio de conocimientos.",
   },
 ];
+
 
 export const About = () => {
   return (
@@ -31,7 +32,7 @@ export const About = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-              About Me
+              Sobre mi
             </h2>
             <div className="w-20 h-1 bg-gradient-accent mx-auto mb-8" />
           </div>
@@ -39,32 +40,28 @@ export const About = () => {
           <div className="grid md:grid-cols-2 gap-12 mb-16">
             <div className="space-y-6 animate-slide-up">
               <h3 className="text-2xl md:text-3xl font-semibold text-primary">
-                Who I Am
+                ¿Quien soy?
               </h3>
               <p className="text-foreground/80 leading-relaxed">
-                I'm a passionate developer with a keen eye for detail and a love for creating
-                exceptional digital experiences. My journey in tech has been driven by curiosity
-                and the desire to solve real-world problems through innovative solutions.
+                Soy estudiante de noveno semestre de la carrera de Ingeniería de Sistemas. Me especializo en desarrollo web, y disfruto crear páginas visualmente atractivas, intuitivas y fáciles de usar. También me enfoco en desarrollar un backend funcional, eficiente y libre de errores.
               </p>
               <p className="text-foreground/80 leading-relaxed">
-                Beyond coding, I'm fascinated by the intersection of technology and design,
-                always seeking to create applications that are not only functional but also
-                beautiful and intuitive to use.
+                Me motiva ver la satisfacción de los usuarios al interactuar con las interfaces que diseño, y siempre busco mejorar la experiencia del cliente en cada proyecto que realizo.
               </p>
             </div>
 
             <div className="space-y-6 animate-slide-up" style={{ animationDelay: "0.1s" }}>
               <h3 className="text-2xl md:text-3xl font-semibold text-primary">
-                My Strengths
+               Mis fortalezas
               </h3>
               <ul className="space-y-3">
                 {[
-                  "Full-stack development with modern frameworks",
-                  "Clean, maintainable, and scalable code architecture",
-                  "Problem-solving with creative and efficient solutions",
-                  "Rapid learning and adaptation to new technologies",
-                  "Strong communication and collaborative mindset",
-                  "Attention to detail and user experience"
+                  "Desarrollo full-stack con frameworks modernos",
+                  "Arquitectura de código limpia, mantenible y escalable",
+                  "Resolución de problemas con soluciones creativas y eficientes",
+                  "Aprendizaje rápido y adaptación a nuevas tecnologías",
+                  "Fácil comunicación y mentalidad colaborativa",
+                  "Atención al detalle y a la experiencia de usuario"
                 ].map((strength, index) => (
                   <li key={index} className="flex items-start gap-3">
                     <div className="mt-1 w-2 h-2 rounded-full bg-accent flex-shrink-0" />

@@ -10,7 +10,7 @@ export const Footer = () => {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             {/* Brand */}
             <div className="space-y-4">
-              <h3 className="text-xl font-bold">Your Name</h3>
+              <h3 className="text-xl font-bold">Elvis Erich Cabrera Ramos</h3>
               <p className="text-primary-foreground/80 text-sm">
                 Full Stack Developer passionate about creating exceptional digital experiences
               </p>

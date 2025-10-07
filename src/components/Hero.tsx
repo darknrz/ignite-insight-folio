@@ -19,25 +19,26 @@ export const Hero = () => {
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
           <div className="space-y-4">
             <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-primary tracking-tight">
-              Your Name
+              Elvis Erich Cabrera Ramos
             </h1>
             <p className="text-xl sm:text-2xl md:text-3xl font-medium text-accent">
-              Full Stack Developer & Creative Problem Solver
+              Desarrollador Full Stack y Solucionador Creativo de Problemas
             </p>
           </div>
 
           <div className="space-y-2 text-foreground/80">
             <p className="text-lg md:text-xl">
-              <span className="font-semibold text-primary">Studies:</span> Computer Science, Software Engineering
+              <span className="font-semibold text-primary">Estudios:</span>{" "}
+              Ingenieria de sistemas
             </p>
             <p className="text-lg md:text-xl">
-              <span className="font-semibold text-primary">Experience:</span> Building elegant solutions to complex problems
+              <span className="font-semibold text-primary">Experiencias:</span>{" "}
+              Desarrollo de soluciones elegantes para problemas complejos{" "}
             </p>
           </div>
 
           <p className="text-base md:text-lg max-w-2xl mx-auto leading-relaxed text-muted-foreground">
-            Passionate about creating beautiful, functional, and user-friendly applications
-            that make a difference. Let's build something amazing together.
+            Desarrollo de soluciones elegantes para problemas complejos.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
@@ -46,7 +47,7 @@ export const Hero = () => {
               onClick={() => scrollToSection("projects")}
               className="group bg-primary hover:bg-primary/90 text-primary-foreground shadow-elegant hover:shadow-hover transition-all duration-300"
             >
-              View My Work
+              Ver mi trabajo
               <ArrowDown className="ml-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
             </Button>
             <Button
@@ -56,15 +57,14 @@ export const Hero = () => {
               className="border-primary/30 hover:border-primary hover:bg-primary/5 transition-all duration-300"
             >
               <Mail className="mr-2 h-4 w-4" />
-              Get In Touch
-            </Button>
+Ponte en contacto            </Button>
             <Button
               size="lg"
               variant="ghost"
               className="hover:bg-accent/20 transition-all duration-300"
             >
               <Download className="mr-2 h-4 w-4" />
-              Download CV
+              Descargar CV
             </Button>
           </div>
         </div>
