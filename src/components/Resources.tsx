@@ -3,41 +3,24 @@ import { Card, CardContent } from "./ui/card";
 
 const resources = [
   {
-    category: "Books",
+    category: "Libros",
     icon: Book,
     items: [
-      { title: "Clean Code", author: "Robert C. Martin" },
-      { title: "You Don't Know JS", author: "Kyle Simpson" },
-      { title: "The Pragmatic Programmer", author: "Hunt & Thomas" },
-    ]
-  },
-  {
-    category: "Video Courses",
-    icon: Video,
-    items: [
-      { title: "React - The Complete Guide", author: "Maximilian Schwarzmüller" },
-      { title: "Node.js: The Complete Guide", author: "Academind" },
-      { title: "TypeScript Masterclass", author: "Stephen Grider" },
+      { title: "HTML & CSS: Design and Build Websites", author: "Jon Duckett" },
+      { title: "CSS Secrets: Better Solutions to Everyday Web Design Problems", author: "Lea Verou" },
+      { title: "Eloquent JavaScript (Español)", author: "Marijn Haverbeke" },
     ]
   },
   {
     category: "Documentation",
     icon: FileText,
     items: [
-      { title: "React Official Docs", author: "react.dev" },
-      { title: "MDN Web Docs", author: "Mozilla" },
-      { title: "TypeScript Handbook", author: "Microsoft" },
+      { title: "MDN Web Docs (Español)"},
+      { title: "W3Schools"},
+      { title: "TypeScript Handbook"},
     ]
   },
-  {
-    category: "Practice Platforms",
-    icon: Code,
-    items: [
-      { title: "LeetCode", author: "Algorithm Practice" },
-      { title: "Frontend Mentor", author: "UI Challenges" },
-      { title: "CodeWars", author: "Code Kata" },
-    ]
-  },
+
 ];
 
 export const Resources = () => {
@@ -47,11 +30,11 @@ export const Resources = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-              Learning Resources
+              Viaje de Aprendizaje
             </h2>
             <div className="w-20 h-1 bg-gradient-accent mx-auto mb-8" />
             <p className="text-lg text-muted-foreground">
-              Books, courses, and platforms that shaped my development journey
+              Libros, cursos y plataformas que dieron forma a mi camino de desarrollo
             </p>
           </div>
 

@@ -12,7 +12,7 @@ export const Footer = () => {
             <div className="space-y-4">
               <h3 className="text-xl font-bold">Elvis Erich Cabrera Ramos</h3>
               <p className="text-primary-foreground/80 text-sm">
-                Full Stack Developer passionate about creating exceptional digital experiences
+                Desarrollador Full Stack apasionado por crear experiencias digitales excepcionales
               </p>
             </div>
 
@@ -43,7 +43,7 @@ export const Footer = () => {
               <h4 className="font-semibold text-lg">Connect</h4>
               <div className="flex gap-4">
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/darknrz"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 flex items-center justify-center transition-all duration-300 hover:scale-110"

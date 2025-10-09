@@ -5,71 +5,64 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./
 const weeklyEntries = [
   {
     week: 1,
-    title: "Foundation & Setup",
+    title: "Fundamentos de Tecnologías Web y Visual Studio Code",
     date: "Week of January 1, 2025",
     learnings: [
-      "Set up development environment with modern tooling",
-      "Learned Git fundamentals and version control best practices",
-      "Introduction to React and component-based architecture",
-      "Understanding of TypeScript basics and type safety"
+      "Sistema web: conjunto completo que integra base de datos, servidor y aplicación.",
+      "Aplicación web: software accesible desde un navegador (como Gmail o una tienda online).",
+      "Sitio web: conjunto de páginas web relacionadas.",
     ],
     exercises: [
-      "Created first React component with TypeScript",
-      "Built a simple to-do list application",
-      "Practiced Git branching and merging workflows"
+      "Exploré los elementos de la interfaz de VSC: panel lateral, terminal, barra de estado, minimapa.",
+      "Instalé extensiones útiles: Live Server, Prettier, HTML CSS Support.",
+      "Practiqué atajos de teclado",
     ],
-    reflection: "The week was challenging but exciting. Setting up the development environment taught me the importance of proper tooling. TypeScript initially felt complex, but I can already see its value in catching errors early."
+    reflection: "En esta sesión aprendí los fundamentos que sostienen el desarrollo web y cómo se interconectan los diferentes conceptos y tecnologías para construir soluciones modernas."
   },
   {
     week: 2,
-    title: "Advanced React Patterns",
+    title: "Laboratorios de Tecnologías Web",
     date: "Week of January 8, 2025",
     learnings: [
-      "React Hooks: useState, useEffect, and custom hooks",
-      "State management with Context API",
-      "Component composition and reusability patterns",
-      "Performance optimization with React.memo and useMemo"
+      "Aprendí los fundamentos de las tecnologías web",
+      "Diferencias entre sistemas, aplicaciones, sitios y páginas web, así como los lenguajes y estándares web como HTML, CSS, JavaScript y herramientas gráficas",
+      "Roles de desarrolladores frontend, backend y fullstack, y usé Visual Studio Code como entorno de desarrollo.",
     ],
     exercises: [
-      "Built a weather dashboard with API integration",
-      "Created reusable form components with validation",
-      "Implemented custom hooks for data fetching"
+      "Hacer una página web básica con HTML y CSS",
+      "Crear tablas en html",
+      "Aprendi el tema de layout con flexbox y grid",
     ],
-    reflection: "This week deepened my understanding of React's reactive nature. Custom hooks are powerful tools for code reusability. The weather dashboard project helped me understand API integration and state management better."
+    reflection: "Aprendí a estructurar una página con HTML5 y a aplicar estilos con CSS3, usando flexbox y grid para diseño responsivo. Entendí cómo funciona el árbol DOM, el ciclo de vida de una página web, y la importancia del SEO y compatibilidad entre navegadores."
   },
   {
     week: 3,
-    title: "Backend Development",
+    title: "Desarrollo Web Front-End",
     date: "Week of January 15, 2025",
     learnings: [
-      "RESTful API design principles",
-      "Database design and SQL fundamentals",
-      "Authentication and authorization patterns",
-      "Error handling and validation middleware"
+      "Aprendí a usar Bootstrap, una librería CSS que facilita la creación de layouts y componentes usando clases predefinidas",
+      "También trabajé con Tailwind CSS, una librería de clases utilitarias que permite personalizar estilos directamente desde el HTML.",
     ],
     exercises: [
-      "Built a Node.js API with Express",
-      "Designed and implemented a PostgreSQL database",
-      "Created authentication system with JWT"
+      "Use booststrap para crear un layout responsivo con navbar, cards y footer",
+      "Use tailwind para diseñar una landing page con colores, tipografía y espaciados personalizados",
     ],
-    reflection: "Backend development opened my eyes to the full picture of web applications. Understanding how data flows from database to frontend is crucial. Security considerations in authentication were particularly enlightening."
+    reflection: "En esta práctica aprendí a desarrollar interfaces usando dos herramientas modernas de CSS: Bootstrap y Tailwind. Bootstrap me permitió maquetar rápidamente usando componentes ya definidos. Con Tailwind, en cambio, aprendí a aplicar clases utilitarias para tener mayor control del diseño. Todo esto lo aprendí mediante ejercicios prácticos, aplicando teoría de Flexbox, tipografía, layout y diseño responsivo."
   },
   {
     week: 4,
-    title: "Full-Stack Integration",
+    title: "Laboratorio 04",
     date: "Week of January 22, 2025",
     learnings: [
-      "Connecting React frontend with backend APIs",
-      "State management for async operations",
-      "Error handling and loading states",
-      "Deployment and production considerations"
+      "En este laboratorio se aprendió a desarrollar una interfaz web utilizando HTML, CSS y JavaScript puro sin librerías externas",
+      "Se abordaron los siguientes temas: HTML Semántico, CSS Puro y DOM Eventos, Drag & Drop,Formularios, Sliders RGB, Animaciones en Canvas Diseño responsivo con Flexbox y Media Queries",
     ],
     exercises: [
-      "Integrated all previous projects into full-stack applications",
-      "Implemented proper error boundaries and fallbacks",
-      "Deployed applications to cloud platforms"
+      " Interfaz con formulario, íconos SVG y carga de imagen drag & drop.",
+      "Controles de volumen y selector de color.",
+      "Página web con diseño exacto, imágenes con opacidad al hacer hover y diseño responsivo adaptado a 4 tamaños de pantalla."
     ],
-    reflection: "Bringing frontend and backend together was immensely satisfying. I learned the importance of proper error handling and user feedback. Deployment taught me about environment variables and production optimizations."
+    reflection: "En este laboratorio aprendí a crear interfaces web completas usando HTML, CSS y JavaScript puro. El ejercicio 1 me permitió practicar el uso del DOM, inputs animados y zona drag & drop. En el ejercicio 2 aprendí a sincronizar sliders y valores numéricos para controlar colores RGB. Finalmente, el ejercicio 3 me permitió aplicar diseño responsivo y trabajar con media queries para adaptar el diseño a distintos dispositivos. Aprendí todo esto mediante la práctica directa, el análisis de ejemplos y la depuración del código."
   }
 ];
 
@@ -80,11 +73,11 @@ export const Learning = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-              Learning Journey
+              Viaje de Aprendizaje
             </h2>
             <div className="w-20 h-1 bg-gradient-accent mx-auto mb-8" />
             <p className="text-lg text-muted-foreground">
-              A weekly documentation of my learning process, growth, and insights
+             Una documentación semanal de mi proceso de aprendizaje, crecimiento e ideas
             </p>
           </div>
 
@@ -113,12 +106,12 @@ export const Learning = () => {
                       </div>
                     </div>
                   </AccordionTrigger>
-                  
+
                   <AccordionContent className="pb-6 pt-2 space-y-6">
                     <div>
                       <div className="flex items-center gap-2 mb-3">
                         <BookOpen className="h-5 w-5 text-accent" />
-                        <h4 className="font-semibold text-primary">What I Learned</h4>
+                        <h4 className="font-semibold text-primary">Lo que aprendí</h4>
                       </div>
                       <ul className="space-y-2">
                         {entry.learnings.map((learning, i) => (
@@ -133,7 +126,7 @@ export const Learning = () => {
                     <div>
                       <div className="flex items-center gap-2 mb-3">
                         <CheckCircle className="h-5 w-5 text-accent" />
-                        <h4 className="font-semibold text-primary">Exercises Completed</h4>
+                        <h4 className="font-semibold text-primary">Ejercicios Completados</h4>
                       </div>
                       <ul className="space-y-2">
                         {entry.exercises.map((exercise, i) => (
@@ -163,33 +156,9 @@ export const Learning = () => {
             </CardHeader>
             <CardContent className="space-y-4 text-foreground/80">
               <p className="leading-relaxed">
-                Throughout this intensive learning journey, I've transformed from understanding basic concepts
-                to building complete full-stack applications. The progression from frontend fundamentals to
-                backend integration has given me a comprehensive understanding of modern web development.
+               A lo largo de este intenso proceso de aprendizaje, he pasado de comprender los conceptos básicos hasta ser capaz de desarrollar aplicaciones más completas y funcionales. La evolución desde los fundamentos del desarrollo frontend hasta el uso de tecnologías modernas como Vite, React y Next.js ha sido fundamental para fortalecer mis habilidades y comprender en mayor profundidad el vasto mundo de las tecnologías web.
               </p>
-              <p className="leading-relaxed">
-                What I've learned extends beyond technical skills. I've developed problem-solving approaches,
-                learned to debug effectively, and understood the importance of clean, maintainable code.
-                Each challenge taught me resilience and the value of breaking complex problems into manageable parts.
-              </p>
-              <p className="leading-relaxed font-semibold text-primary">
-                How I Can Contribute to a Team:
-              </p>
-              <ul className="space-y-2">
-                {[
-                  "Bring fresh perspectives and eagerness to learn from experienced developers",
-                  "Write clean, well-documented code that's easy for others to understand",
-                  "Collaborate effectively and communicate technical concepts clearly",
-                  "Adapt quickly to new technologies and team workflows",
-                  "Contribute to code reviews with attention to detail and best practices",
-                  "Take ownership of tasks and deliver quality results on time"
-                ].map((contribution, i) => (
-                  <li key={i} className="flex items-start gap-2">
-                    <CheckCircle className="h-5 w-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span>{contribution}</span>
-                  </li>
-                ))}
-              </ul>
+
             </CardContent>
           </Card>
         </div>

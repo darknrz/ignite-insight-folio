@@ -10,20 +10,20 @@ const socialLinks = [
   {
     name: "GitHub",
     icon: Github,
-    url: "https://github.com/yourusername",
-    handle: "@yourusername"
+    url: "https://github.com/darknrz",
+    handle: "darknrz"
   },
   {
     name: "LinkedIn",
     icon: Linkedin,
-    url: "https://linkedin.com/in/yourprofile",
-    handle: "/in/yourprofile"
+    url: "https://www.linkedin.com/in/elvis-erich-cabrera-ramos-1943aa352/",
+    handle: "Elvis Erich Cabrera Ramos"
   },
   {
     name: "Email",
     icon: Mail,
-    url: "mailto:your.email@example.com",
-    handle: "your.email@example.com"
+    url: "zelvizcr@gmail.com",
+    handle: "Elvis Erich Cabrera Ramos"
   },
 ];
 
@@ -60,12 +60,11 @@ export const Contact = () => {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-              Get In Touch
+              Ponte en contacto
             </h2>
             <div className="w-20 h-1 bg-gradient-accent mx-auto mb-8" />
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              I'm always open to new opportunities and collaborations. 
-              Feel free to reach out!
+              Siempre estoy abierto a nuevas oportunidades y colaboraciones. ¡No dudes en contactarme!
             </p>
           </div>
 
@@ -73,9 +72,9 @@ export const Contact = () => {
             {/* Contact Form */}
             <Card className="border-border shadow-elegant bg-background animate-slide-up">
               <CardHeader>
-                <CardTitle className="text-2xl text-primary">Send a Message</CardTitle>
+                <CardTitle className="text-2xl text-primary">Envia un mensaje</CardTitle>
                 <CardDescription>
-                  Fill out the form below and I'll get back to you as soon as possible
+                  Rellena el formulario a continuación y me pondré en contacto contigo lo antes posible
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -117,7 +116,7 @@ export const Contact = () => {
                     className="w-full bg-primary hover:bg-primary/90 shadow-elegant hover:shadow-hover transition-all duration-300"
                   >
                     <Send className="mr-2 h-4 w-4" />
-                    Send Message
+                    Enviar mensaje
                   </Button>
                 </form>
               </CardContent>
@@ -127,9 +126,9 @@ export const Contact = () => {
             <div className="space-y-6 animate-slide-up" style={{ animationDelay: "0.1s" }}>
               <Card className="border-border shadow-elegant bg-background">
                 <CardHeader>
-                  <CardTitle className="text-2xl text-primary">Connect With Me</CardTitle>
+                  <CardTitle className="text-2xl text-primary">Conéctate conmigo</CardTitle>
                   <CardDescription>
-                    Find me on these platforms or send me an email
+                    Encuéntrame en estas plataformas o envíame un correo electrónico
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
@@ -156,9 +155,8 @@ export const Contact = () => {
               <Card className="border-2 border-primary/20 bg-gradient-hero shadow-elegant">
                 <CardContent className="pt-6">
                   <p className="text-center text-foreground/80 leading-relaxed">
-                    <span className="font-semibold text-primary block mb-2">Open to Opportunities</span>
-                    I'm currently seeking full-time positions where I can contribute,
-                    learn, and grow as a developer. Let's build something amazing together!
+                    <span className="font-semibold text-primary block mb-2">Abierto a Oportunidades</span>
+                    Actualmente estoy buscando posiciones a tiempo completo donde pueda contribuir, aprender y crecer como desarrollador. ¡Construyamos algo increíble juntos!
                   </p>
                 </CardContent>
               </Card>
