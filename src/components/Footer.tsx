@@ -21,10 +21,10 @@ export const Footer = () => {
               <h4 className="font-semibold text-lg">Quick Links</h4>
               <ul className="space-y-2 text-sm">
                 {[
-                  { name: "Home", href: "#home" },
-                  { name: "About", href: "#about" },
-                  { name: "Projects", href: "#projects" },
-                  { name: "Learning", href: "#learning" },
+                  { name: "Iicio", href: "#home" },
+                  { name: "Sobre", href: "#about" },
+                  { name: "Proyectos", href: "#projects" },
+                  { name: "Aprendizaje", href: "#learning" },
                 ].map((link) => (
                   <li key={link.name}>
                     <a
@@ -52,7 +52,7 @@ export const Footer = () => {
                   <Github className="h-5 w-5" />
                 </a>
                 <a
-                  href="https://linkedin.com/in/yourprofile"
+                  href="https://www.linkedin.com/in/elvis-erich-cabrera-ramos-1943aa352/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 flex items-center justify-center transition-all duration-300 hover:scale-110"
@@ -60,23 +60,11 @@ export const Footer = () => {
                 >
                   <Linkedin className="h-5 w-5" />
                 </a>
-                <a
-                  href="mailto:your.email@example.com"
-                  className="w-10 h-10 rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 flex items-center justify-center transition-all duration-300 hover:scale-110"
-                  aria-label="Email"
-                >
-                  <Mail className="h-5 w-5" />
-                </a>
+             
               </div>
             </div>
           </div>
 
-          <div className="border-t border-primary-foreground/20 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-primary-foreground/80">
-            <p>© {currentYear} Your Name. All rights reserved.</p>
-            <p className="flex items-center gap-1">
-              Built with <Heart className="h-4 w-4 text-accent fill-accent" /> using React & TypeScript
-            </p>
-          </div>
         </div>
       </div>
     </footer>

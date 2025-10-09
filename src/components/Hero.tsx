@@ -57,15 +57,16 @@ export const Hero = () => {
               className="border-primary/30 hover:border-primary hover:bg-primary/5 transition-all duration-300"
             >
               <Mail className="mr-2 h-4 w-4" />
-Ponte en contacto            </Button>
-            <Button
-              size="lg"
-              variant="ghost"
-              className="hover:bg-accent/20 transition-all duration-300"
+              Ponte en contacto{" "}
+            </Button>
+            <a
+              href="../../public/Elvis_Erich_Cabrera_Ramos.pdf"
+              download
+              className="inline-flex items-center justify-center px-4 py-2 text-lg font-medium hover:bg-accent/20 transition-all duration-300 rounded-md"
             >
               <Download className="mr-2 h-4 w-4" />
               Descargar CV
-            </Button>
+            </a>
           </div>
         </div>
       </div>

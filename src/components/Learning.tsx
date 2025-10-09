@@ -6,7 +6,7 @@ const weeklyEntries = [
   {
     week: 1,
     title: "Fundamentos de Tecnologías Web y Visual Studio Code",
-    date: "Week of January 1, 2025",
+    date: "Agosto, 2025",
     learnings: [
       "Sistema web: conjunto completo que integra base de datos, servidor y aplicación.",
       "Aplicación web: software accesible desde un navegador (como Gmail o una tienda online).",
@@ -22,7 +22,7 @@ const weeklyEntries = [
   {
     week: 2,
     title: "Laboratorios de Tecnologías Web",
-    date: "Week of January 8, 2025",
+    date: "Agosto, 2025",
     learnings: [
       "Aprendí los fundamentos de las tecnologías web",
       "Diferencias entre sistemas, aplicaciones, sitios y páginas web, así como los lenguajes y estándares web como HTML, CSS, JavaScript y herramientas gráficas",
@@ -38,7 +38,7 @@ const weeklyEntries = [
   {
     week: 3,
     title: "Desarrollo Web Front-End",
-    date: "Week of January 15, 2025",
+    date: "Setiembre, 2025",
     learnings: [
       "Aprendí a usar Bootstrap, una librería CSS que facilita la creación de layouts y componentes usando clases predefinidas",
       "También trabajé con Tailwind CSS, una librería de clases utilitarias que permite personalizar estilos directamente desde el HTML.",
@@ -52,7 +52,7 @@ const weeklyEntries = [
   {
     week: 4,
     title: "Laboratorio 04",
-    date: "Week of January 22, 2025",
+    date: "Setiembre, 2025",
     learnings: [
       "En este laboratorio se aprendió a desarrollar una interfaz web utilizando HTML, CSS y JavaScript puro sin librerías externas",
       "Se abordaron los siguientes temas: HTML Semántico, CSS Puro y DOM Eventos, Drag & Drop,Formularios, Sliders RGB, Animaciones en Canvas Diseño responsivo con Flexbox y Media Queries",
@@ -63,7 +63,37 @@ const weeklyEntries = [
       "Página web con diseño exacto, imágenes con opacidad al hacer hover y diseño responsivo adaptado a 4 tamaños de pantalla."
     ],
     reflection: "En este laboratorio aprendí a crear interfaces web completas usando HTML, CSS y JavaScript puro. El ejercicio 1 me permitió practicar el uso del DOM, inputs animados y zona drag & drop. En el ejercicio 2 aprendí a sincronizar sliders y valores numéricos para controlar colores RGB. Finalmente, el ejercicio 3 me permitió aplicar diseño responsivo y trabajar con media queries para adaptar el diseño a distintos dispositivos. Aprendí todo esto mediante la práctica directa, el análisis de ejemplos y la depuración del código."
+  },
+  {
+    week: 5,
+    title: "Informe de Laboratorio 05A - Desarrollo FrontEnd con React",
+    date: "Setiembre, 2025",
+    learnings: [
+      "Técnica donde el navegador renderiza el contenido usando JavaScript, sin recargar toda la página.",
+      "Sintaxis parecida a HTML usada dentro de JavaScript para definir componentes de forma declarativa.",
+      "Props son propiedades que se envían de un componente padre a uno hijo. Children es el contenido anidado entre las etiquetas de un componente.",
+    ],
+    exercises: [
+      "Se desarrolló una aplicación en React que pasa datos desde un componente padre hacia un componente hijo usando props y children.",
+    ],
+    reflection: "Aprendí cómo funciona React para construir interfaces dinámicas mediante el uso de componentes, props y JSX. La experiencia de usar props para pasar datos entre componentes me ayudó a entender el flujo de datos unidireccional de React. También comprendí la diferencia entre renderizado del lado del cliente (CSR) y del servidor. Utilicé herramientas como Vite para crear proyectos y practiqué diferentes formas de aplicar estilos en React. Aprendí todo esto mediante la creación de proyectos reales, el análisis de documentación oficial y la prueba y error al construir componentes personalizados."
+  },
+  {
+    week: 6,
+    title: "Laboratorio 06A: JavaScript Avanzado",
+    date: "Setiembre, 2025",
+    learnings: [
+      "Eventos, Renderizado Condicional/Iterativo y Consumo de APIs",
+      "Formularios en JavaScript",
+    ],
+    exercises: [
+      "Ejercicio 1: Ruleta Aleatoria",
+      "Ejercicio 2: Sorteo de Equipos",
+      "Página web con diseño exacto, imágenes con opacidad al hacer hover y diseño responsivo adaptado a 4 tamaños de pantalla."
+    ],
+    reflection: "Durante este laboratorio he consolidado conocimientos fundamentales sobre JavaScript moderno y desarrollo web interactivo. Específicamente aprendí a Manejar eventos del DOM de manera eficiente y estructurada, Implementar renderizado condicional para crear interfaces dinámicas, Utilizar renderizado iterativo para generar contenido basado en datos, Trabajar con formularios y validación de datos en tiempo real,Consumir APIs usando fetch() y manejar operaciones asíncronas, Aplicar promesas y async/await para código más limpio y }mantenible, Integrar librerías externas como html2canvas para funcionalidades avanzadas "
   }
+  
 ];
 
 export const Learning = () => {

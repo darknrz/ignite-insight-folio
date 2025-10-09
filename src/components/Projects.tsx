@@ -5,33 +5,33 @@ import { Badge } from "./ui/badge";
 
 const projects = [
   {
-    title: "Biblioteca ",
-    description: "Full-stack e-commerce solution with real-time inventory management, secure payment processing, and advanced analytics.",
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=500&fit=crop",
+    title: "Biblioteca digital",
+    description: "Biblioteca digital creada para los estudiantes de Sicaya, quienes anteriormente contaban solo con una biblioteca tradicional.",
+    image: "https://i.imgur.com/nN98xVD.jpeg",
     technologies: ["React", "Node.js", "SqlServer", "Electron"],
     github: "https://github.com/ISAASPWDI/sistema-de-biblioteca-UNCP.git",
     demo: "#",
   },
   {
     title: "Artesania shop",
-    description: "Collaborative project management tool with real-time updates, team chat, and advanced reporting features.",
-    image: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=800&h=500&fit=crop",
-    technologies: ["TypeScript", "React", "Supabase", "Tailwind"],
+    description: "Artesanía Shop fue desarrollada para promover la venta de productos de la región Junín, abarcando desde la selva hasta la sierra. Su objetivo es brindar apoyo a los artesanos locales mediante una plataforma virtual que facilite la comercialización de sus productos.",
+    image: "https://i.imgur.com/knF2nMP.jpeg",
+    technologies: ["JavaScript", "React", "SqlServer", "Tailwind"],
     github: "https://github.com/darknrz/artesania-shop.git",
     demo: "#",
   },
   {
-    title: "schollar conect",
-    description: "Machine learning-powered content creation tool that helps users generate high-quality written content.",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop",
-    technologies: ["Python", "React", "OpenAI", "FastAPI"],
+    title: "Uni connect",
+    description: "UniConnect fue desarrollado con el propósito de conectar a personas con intereses similares en el ámbito de la programación, facilitando la colaboración en proyectos complejos. Funciona como una red social donde los usuarios pueden mostrar sus intereses y las tecnologías que dominan.",
+    image: "https://i.imgur.com/Tgjgp2j.jpeg",
+    technologies: ["JavaScript", "React", "MachineLearning", "API", "SqlServer", "Node"],
     github: "https://github.com/darknrz/tech-affinity-finder.git",
     demo: "#",
   },
   {
     title: "Math kids",
-    description: "No-code platform enabling users to create stunning portfolio websites with drag-and-drop simplicity.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop",
+    description: "Math Kids es un sistema de reservas de clases que permite a los estudiantes elegir al profesor y el tema de su interés, con el objetivo de reforzar su aprendizaje o recibir ayuda en sus tareas escolares.",
+    image: "https://i.imgur.com/79QMrT1.jpeg",
     technologies: ["TypeScript", "Prisma", "TailwindCSS", "Supabase", "React", "JavaScript", "Node.js", "izipay", "express", "PostgreSql" ],
     github: "https://github.com/darknrz/Math-Kids.git",
     demo: "#",
@@ -108,10 +108,6 @@ export const Projects = () => {
                       className="flex-1 bg-primary hover:bg-primary/90"
                       asChild
                     >
-                      <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="mr-2 h-4 w-4" />
-                        Live Demo
-                      </a>
                     </Button>
                   </div>
                 </CardContent>

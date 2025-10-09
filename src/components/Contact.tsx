@@ -19,12 +19,7 @@ const socialLinks = [
     url: "https://www.linkedin.com/in/elvis-erich-cabrera-ramos-1943aa352/",
     handle: "Elvis Erich Cabrera Ramos"
   },
-  {
-    name: "Email",
-    icon: Mail,
-    url: "zelvizcr@gmail.com",
-    handle: "Elvis Erich Cabrera Ramos"
-  },
+
 ];
 
 export const Contact = () => {
