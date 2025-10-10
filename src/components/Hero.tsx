@@ -60,7 +60,7 @@ export const Hero = () => {
               Ponte en contacto{" "}
             </Button>
             <a
-              href="../../public/Elvis_Erich_Cabrera_Ramos.pdf"
+              href="./Elvis_Erich_Cabrera_Ramos.pdf"
               download
               className="inline-flex items-center justify-center px-4 py-2 text-lg font-medium hover:bg-accent/20 transition-all duration-300 rounded-md"
             >
